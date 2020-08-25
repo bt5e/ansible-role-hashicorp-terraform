@@ -1,0 +1,6 @@
+---
+terraform_version: 0.13.0
+terraform_dist_file: "terraform_{{ terraform_version }}_linux_amd64.zip"
+terraform_download_url: "https://releases.hashicorp.com/terraform/{{ terraform_version }}/{{ terraform_dist_file }}"
+terraform_tmp_download_dir: "/tmp/ansible-role-hashicorp-terraform"
+terraform_bin_path: "/usr/local/bin/"
