@@ -25,7 +25,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - bt5e.hashicorp-terraform
+         - bt5e.hashicorp_terraform
 
 License
 -------
